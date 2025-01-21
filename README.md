@@ -59,8 +59,7 @@ For a successful application of ClustMod, a specific folder structure is require
 
 For all data sets, the CHM and DTM must be placed in the respective folders and, if they should be considered as a training site, a stack with all HS observations is required additionally. File paths to these raster data must be specified in the `config_data_preparation` configuration file that is located within each individual data folder. Figure 1 illustrates this data and folder structure for the ClustMod model as presented by Geissler (2025).
 
-![grafik](https://github.com/user-attachments/assets/9da2876d-25b3-4b48-81a5-a847123f5a03)
-
+![grafik](https://github.com/user-attachments/assets/1dc4e91b-8088-4de2-8f7d-03fb959892ba)
 ### Figure 1: Folder Structure for setting up the ClustMod Model
 
 ## Configuration file “config_ClustMod”
