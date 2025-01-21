@@ -127,7 +127,7 @@ crs_dtm                   = "EPSG:32632"
 crs_chm                   = "EPSG:32632"
 crs_dtm_largescale        = "EPSG:4326"
 
-finalize = FALSE
+finalize                  = FALSE
 buffer_size               = 90
 DCE_step_nr               = 300
 
