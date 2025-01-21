@@ -81,14 +81,15 @@ The following lines show the `config_ClustMod` configuration file for the exampl
 
 ```r
 # ClustMod Parameters
-path_in 		= “Data_ClustMod”
-path_out 		= “Output”
+path_in                   = "Data_ClustMod"
+path_out                  = "Output"
 experiment               	= "20250101"
 model                    	= "v0"
 train_sites              	= c('Alptal','Schauinsland','Fluela_North','Fluela_South')
 test_sites               	= c('Fluela')
 features                 	= c('CC_5', 'CC_50', 'CHM_1', 'CHM_5', 'CHM_50', 'CHMmed_5', 'DCE_1', 'DIST_1','LWDCE_1', 'NDCE_1', 'NN_CHM_5', 'NN_CHM_20', 'NN_CHM_50', 'NN_DTM_5', 'NN_DTM_20','NN_DTM_50','SDCE_1', 'TPI_1', 'TPI_5', 'TPI_90', 'TWI_1', 'TWI_5','WFDCE_1','WNDIR_1','WNVEL_1')
 train_test_split         	= 0.8
+
 # ClustSnow Parameters
 sample_length 	          = 1600
 n_class 		              = 4
