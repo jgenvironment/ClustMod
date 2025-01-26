@@ -142,7 +142,7 @@ path_to_wn_exe            = "C:\\WindNinja\\WindNinja-3.6.0\\bin\\WindNinja_cli.
 ```
 ## Data Output
 
-All output of ClustMod is stored in the defined output path (`dir_out`).
+All output of ClustMod is stored in the defined output path (`path_out`).
 
 For all sites listed in `test_sites`, the clusters are predicted using the trained ClustMod model. The application of ClustMod produces logfiles to store essential information regarding the model execution. These logfiles include the following details:
 
